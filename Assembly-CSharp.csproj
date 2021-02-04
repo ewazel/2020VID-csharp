@@ -72,6 +72,7 @@
      <Compile Include="Assets\Source\Actors\Static\Door.cs" />
      <Compile Include="Assets\Source\Core\GameManager.cs" />
      <Compile Include="Assets\Source\Core\ActorManager.cs" />
+     <None Include="Assets\App.config" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -755,6 +756,7 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Data\schema_ddl.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
